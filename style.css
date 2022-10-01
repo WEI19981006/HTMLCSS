@@ -1,0 +1,239 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.warp{
+    margin: 0 auto;
+    max-width: 1000px;
+}
+body{
+    margin: 0 auto;
+}
+.icon{
+    display: flex;
+    justify-content: flex-end;
+    background: #f7f7f7;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.fb{
+    color: #3f5d9d;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.twitter{
+    color: #00a4f7;
+    text-decoration: none;
+    margin-right: 12px;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+.logo ul{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logotext{
+    text-decoration: none;
+    color: #2abb99;
+}
+.logotext:hover{
+    border-bottom: 3px solid #2abb99;
+}
+.banner{
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    height: 345px;
+    background-image:url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/banner.png)
+}
+.banner h2{
+    color: white;
+    font-size: 33px;
+    font-weight: bold;
+    padding-left: 25px;
+    line-height: 45px;
+    letter-spacing: 2px;
+    background:#1d1d1d4f;
+    width: 1000px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+.content h2{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.content ul{
+    padding-left: 20px;
+    padding-bottom: 25px;
+}
+.content li{
+    font-size: 14px;
+    padding-bottom: 8px;
+    letter-spacing: 1px;
+}
+.html5{
+    border: 2px solid #f1f1f1;
+    box-shadow: 0px 0px 3px #d9d9d9;
+}
+.rwd{
+    border: 2px solid #f1f1f1;
+    box-shadow: 0px 0px 3px #d9d9d9;
+}
+.jquery{
+    border: 2px solid #f1f1f1;
+    box-shadow: 0px 0px 3px #d9d9d9;
+}
+.list h2{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.list table{
+    margin: 0 auto;
+}
+.list td{
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 10px 50px;
+}
+.title{
+    font-weight: bold;
+    background-color: #f7f7f7;
+}
+.color{
+    color: #0dba85;
+}
+.box{
+    background-repeat: repeat-x;
+    background-image: url(https://raw.githubusercontent.com/WEI19981006/bgimage/main/bg.png);
+    margin-top: 60px;
+    background-color: #009b6f;
+    height: 414px;
+}
+.box h2{
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 40px;
+    line-height: 40px;
+}
+form{
+    display: flex;
+}
+form textarea{
+    height: 220px;
+    width: 440px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-radius: 5%;
+}
+.material{
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 460px;
+}
+.material input{
+    height: 25px;
+    border-radius: 5%;
+}
+.material label{
+    color: #eeffff;
+    font-size: 15px;
+	padding-bottom: 6px;
+    padding-top: 15px;
+}
+.button{
+    align-self:flex-end; /*align-self 這個屬性是用來操控單個彈性項目的對齊。*/
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.button input{
+    background: #00cd97;
+    height: 33px;
+    width: 70px;
+    border: none;
+    color: white;
+}
+.button input:hover{
+    border: 2px solid white;
+    height: 40px;
+    width: 77px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+}
+.footer ul{
+    display: flex;
+    flex-direction: column;
+}
+.footer li{
+    line-height: 25px;
+}
+.footer a{
+    text-decoration: none;
+    color: #e089a6;
+}
