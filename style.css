@@ -60,6 +60,9 @@ body{
     padding-top: 5px;
     padding-bottom: 5px;
 }
+.icon a:hover{
+    font-weight: bold;
+}
 .fb{
     color: #3f5d9d;
     text-decoration: none;
