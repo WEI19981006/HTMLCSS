@@ -219,9 +219,7 @@ form textarea{
     color: white;
 }
 .button input:hover{
-    border: 2px solid white;
-    height: 40px;
-    width: 77px;
+    background: #707070;
 }
 .footer{
     display: flex;
